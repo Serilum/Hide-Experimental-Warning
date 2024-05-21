@@ -4,15 +4,13 @@
   "package": "com.natamus.hideexperimentalwarning.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-
+	"LevelSummaryMixin"
   ],
   "client": [
-  
   ],
   "server": [
-
   ],
   "injectors": {
-    "defaultRequire": 1
+	"defaultRequire": 1
   }
 }
