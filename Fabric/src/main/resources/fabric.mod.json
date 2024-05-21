@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "hideexperimentalwarning",
-  "version": "1.0",
+  "version": "1.1",
 
   "name": "Hide Experimental Warning",
   "description": "Hides the Experimental Settings Warning when trying to create or load a perfectly fine modded world.",
@@ -17,13 +17,16 @@
 
   "environment": "*",
   "entrypoints": { "main": [ "com.natamus.hideexperimentalwarning.ModFabric" ] },
+  "mixins": [
+    "hideexperimentalwarning.mixins.json"
+  ],
 
   "depends": {
     "fabricloader": ">=0.12.5",
     "fabric": "*",
     "minecraft": ">=1.20",
     "java": ">=17",
-    "collective": ">=7.51"
+    "collective": ">=7.57"
   },
 
   "custom": {
@@ -50,7 +53,6 @@
 	  " Jack",
 	  " Jeremy Langford",
 	  " Michael W. S.",
-	  " pepe1191",
 	  " Shana Gitnick",
 	  " Tyler Behl"
   ]
