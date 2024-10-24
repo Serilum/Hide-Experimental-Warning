@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "hideexperimentalwarning",
+  "version": "1.2",
+
+  "name": "Hide Experimental Warning",
+  "description": "Hides the Experimental Settings Warning when trying to create or load a perfectly fine modded world.",
+  "authors": [ "Rick South" ],
+  "contact": {
+    "homepage": "https://serilum.com/mod/hide-experimental-warning",
+    "sources": "https://github.com/Serilum/Hide-Experimental-Warning",
+    "issues": "https://github.com/Serilum/.issue-tracker/labels/Mod:%20Hide%20Experimental%20Warning"
+  },
+
+  "license": "All Right Reserved",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": { "main": [ "com.natamus.hideexperimentalwarning.ModFabric" ] },
+  "mixins": [
+    "hideexperimentalwarning.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric": "*",
+    "minecraft": ">=1.21",
+    "java": ">=21",
+    "collective": ">=7.86"
+  },
+
+  "custom": {
+    "modmenu": {
+      "links": {
+        "Donate <3" : "https://ricksouth.com/donate"
+      }
+    }
+  },
+
+  "contributors": [
+	  " ",
+	  "Thank you very much to my Membership sponsors for supporting the development of this mod!",
+	  " ",
+	  "If you would like to contribute too, check out https://serilum.com/donate.",
+	  " ",
+	  "Membership sponsors:",
+	  " Alister",
+	  " Andrean Olgo",
+	  " aternosorg",
+	  " Cherriesaurus",
+	  " kate1073",
+	  " Michael W. S.",
+	  " Tyler Behl",
+	  " XAgent"
+  ]
+}
