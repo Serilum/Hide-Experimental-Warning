@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.natamus.hideexperimentalwarning.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+	"LevelSummaryMixin"
+  ],
+  "client": [
+  ],
+  "server": [
+  ],
+  "injectors": {
+	"defaultRequire": 1
+  }
+}
