@@ -1,22 +1,20 @@
-package com.natamus.hideexperimentalwarning;
+package com.serilum.hideexperimentalwarning;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.hideexperimentalwarning.util.Reference;
-import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.event.lifecycle.FMLLoadCompleteEvent;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import com.serilum.hideexperimentalwarning.util.Reference;
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.fml.common.Mod;
+import net.neoforged.fml.event.lifecycle.FMLLoadCompleteEvent;
 
 @Mod(Reference.MOD_ID)
-public class ModForge {
+public class ModNeoForge {
 	
-	public ModForge() {
+	public ModNeoForge(IEventBus modEventBus) {
 		if (!ShouldLoadCheck.shouldLoad(Reference.MOD_ID)) {
 			return;
 		}
 
-		IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 		modEventBus.addListener(this::loadComplete);
 
 		setGlobalConstants();

@@ -1,28 +1,28 @@
 modLoader="javafml"
 loaderVersion="*"
-license="All rights reserved"
+license="All Rights Reserved"
 issueTrackerURL="https://github.com/Serilum/.issue-tracker/labels/Mod:%20Hide%20Experimental%20Warning"
 logoFile="icon.png"
 
 [[mods]]
 modId="hideexperimentalwarning"
-version="1.2"
+version="1.3"
 displayName="Hide Experimental Warning"
 displayURL="https://serilum.com/mod/hide-experimental-warning"
-authors="Rick South"
+authors="Serilum"
 description='''Hides the Experimental Settings Warning when trying to create or load a perfectly fine modded world.
 '''
 credits='''Thank you very much to my Membership sponsors for supporting the development of this mod:  
 
-Alister, Andrean Olgo, aternosorg, Cherriesaurus, Michael W. S., Nahuel Fernandez, Shana Gitnick, Tyler Behl   
+Andrean Olgo, AnyankaT, aternosorg, Cherriesaurus, Linda Jansen, MWS, Tyler Behl   
 
-If you would like to contribute too, check out https://serilum.com/donate. Appreciate it! <3   
+If you would like to contribute too, check out https://serilum.com/donate Appreciate it! <3   
 '''
 
 [[dependencies.hideexperimentalwarning]]
     modId="collective"
     mandatory=true
-    versionRange="[7.80,)"
+    versionRange="[8.40,)"
     ordering="NONE"
     side="BOTH"
 
