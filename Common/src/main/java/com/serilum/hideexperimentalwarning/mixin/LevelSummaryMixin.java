@@ -1,4 +1,4 @@
-package com.natamus.hideexperimentalwarning.mixin;
+package com.serilum.hideexperimentalwarning.mixin;
 
 import net.minecraft.world.level.storage.LevelSummary;
 import org.spongepowered.asm.mixin.Mixin;
