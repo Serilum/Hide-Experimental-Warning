@@ -1,4 +1,4 @@
-package com.natamus.hideexperimentalwarning;
+package com.serilum.hideexperimentalwarning;
 
 
 public class ModCommon {
